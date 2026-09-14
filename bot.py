@@ -20,9 +20,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Get credentials from environment variables
-API_ID = int(os.getenv("API_ID", "0"))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+API_ID = int(os.getenv("API_ID", "34676805"))
+API_HASH = os.getenv("API_HASH", "70817b75930b48f04efa5b994ef1152b")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8693192057:AAFLK4522DjvgLQzfHXS3mUPkexrrDIKOCs")
 
 # Validate credentials
 if not all([API_ID, API_HASH, BOT_TOKEN]):
